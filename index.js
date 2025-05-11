@@ -9,6 +9,7 @@ const app = express()
 app.use(express.json());
 
 app.use(cors())
+// vechile/getVehicles
 app.use("/user",userRouter)
 app.use("/user",vahanapi)
 // http://localhost:3000/user/createUser
